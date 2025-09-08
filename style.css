@@ -1,0 +1,24 @@
+#container{
+    height: 300px;
+    width:80%;
+    border:2px solid black;
+    background-color: azure;
+    margin: 10px auto;
+    /* flex overflow ni hota adjust kr lata  */
+    display: flex;
+    flex-direction: column;
+     /* flex-direction: row; */
+    
+
+}
+h1{
+    text-align: center;
+
+}
+
+#container div{
+    height: 100px;
+    width:300px;
+    font-size: 1.5em;
+    text-align: center;
+}
