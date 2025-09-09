@@ -8,13 +8,22 @@
 
     /* flex overflow ni hota adjust kr lata  */
     display: flex;
+
+
     /* flex-direction: column; */
-     /* flex-direction: row; */
+     flex-direction: row;
+       /* flex-direction: column-reverse; */
+         /* flex-direction: row-reverse; */
 
 
 
-          flex-direction: row-reverse;
-    
+/* --------------------------space----------------------------- */
+          /* justify-content: flex-start;
+            justify-content: flex-end; */
+              /* justify-content: center; */
+              justify-content: space-between;
+              /* justify-content: space-around;  (dono jagha-notEqual)
+              justify-content:space-evenly; (dono jagha-equal)*/
 
 }
 h1{
