@@ -56,6 +56,19 @@ h1{
     /* just single pr work */
     align-self: flex-end;
 }
+#blue{
+    /* individual size */
+    flex-basis: 50px;
+}
+#purple
+{
+    /* flex grow agar khali space ha usko cover---------agar 1 line me 2 ko flexgrow diya to equal */
+    flex-grow: 1;
+
+}
+#pink{
+    flex-shrink: 2;
+}
 
 /* flex
 main-(row)/cross-(opposite)
@@ -64,3 +77,11 @@ row-reverse=right to left
 
 column=top to bottom
 column-reverse=bottom to top */
+
+
+
+
+/* flex-grow|flex-shrink|flex-basis(px)
+flex-grow|flex-basis(px)
+flex:flex-grow(nounit)
+flex-basis:(px) */
