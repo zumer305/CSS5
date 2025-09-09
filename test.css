@@ -1,0 +1,24 @@
+#container{
+    height:400px;
+    width:400px;
+    border-radius: 5%;
+    border:5px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    /* for x axis */
+    justify-content: space-evenly;
+    /* for y axis */
+    align-content: space-evenly;
+    
+    
+}
+.box{
+    height:100px;
+    width:100px;
+    border:5px solid black;
+    border-radius: 5%;
+    text-align: center;
+    font-size: 50px;
+    background-color: grey;
+
+}

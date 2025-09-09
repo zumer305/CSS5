@@ -37,7 +37,7 @@
                       align-items: baseline;
 
 
-                      /* -----------------jutify(main  L-R),,,align-items(cross  T-B)----------------- */
+                      /* -----------------jutify(mainAXIS  L-R),,,align-items(crossAXIS  T-B)----------------- */
 
 
 }
@@ -74,7 +74,7 @@ h1{
 main-(row)/cross-(opposite)
 row=left to right
 row-reverse=right to left
-
+.............................................
 column=top to bottom
 column-reverse=bottom to top */
 
